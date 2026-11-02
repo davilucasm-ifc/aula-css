@@ -1,11 +1,30 @@
-.exemplo {
-    background: rgb(173, 173, 173);
-    color: black;
-    height: 150px;
-    overflow: auto;
-    width: 1200px;
+.img1:hover {
+    opacity: 0.9;
 }
 
-body {
-    overflow-x: hidden;
+.img2:hover {
+    opacity: 0.5;
+}
+
+.img3 {
+    
+}
+
+a.botao {
+    padding: 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+a.botao:hover {
+    opacity: 0.9;
+}
+
+.transparente {
+    background: blue;
+    color: white;
+    padding: 40px;
+    opacity: 0.5;
 }
